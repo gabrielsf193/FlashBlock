@@ -1,0 +1,27 @@
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.actions button {
+    padding: 12px 24px;
+
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+
+    font-family: var(--fonte-padrao-bold);
+    font-size: 18px;
+
+    border: 2px solid var(--cor-preta);
+    border-radius: 1rem;
+
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.actions button:hover {
+    background-color: var(--cor-branca);
+    color: var(--cor-preta);
+}

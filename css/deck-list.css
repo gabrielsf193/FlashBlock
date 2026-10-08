@@ -1,0 +1,14 @@
+.list-card {
+    min-width: 0;
+    margin: 3rem;
+    padding: 24px;
+
+    background-color: var(--cor-branca);
+    border: 2px solid var(--cor-preta);
+    border-radius: 12px;
+}
+
+.list-card h2 {
+    margin: 0 0 1rem 28px;
+    text-align: left;
+}
