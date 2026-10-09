@@ -1,0 +1,37 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fontes */
+@font-face {
+    font-family: "FonteBase";
+    src: url("../assets/fonts/AtkinsonHyperlegibleNext-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "FonteBase-Bold";
+    src: url("../assets/fonts/AtkinsonHyperlegibleNext-Bold.woff2");
+    font-weight: 700;
+}
+
+/* Variáveis */
+:root {
+    --cor-preta: #000;
+    --cor-branca: #fff;
+    --cor-amarela: #f5c400;
+    --cor-vermelha: #d9534f;
+
+    --fonte-padrao: "FonteBase", sans-serif;
+    --fonte-padrao-bold: "FonteBase-Bold", sans-serif;
+}
+
+/* Base */
+body {
+    font-family: var(--fonte-padrao);
+    color: var(--cor-preta);
+    background-color: var(--cor-branca);
+}
